@@ -3,5 +3,6 @@ plugins {
 }
 
 dependencies {
-    compile(kotlin("stdlib"))
+    implementation(kotlin("stdlib"))
+    implementation(group = "com.kennycason",name = "kumo-core", version = "1.22")
 }
