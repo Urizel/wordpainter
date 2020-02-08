@@ -8,6 +8,7 @@ application {
 }
 
 dependencies {
-    compile(project(":core"))
-    compile(kotlin("stdlib"))
+    implementation(project(":core"))
+    implementation(kotlin("stdlib"))
+    implementation("com.xenomachina:kotlin-argparser:2.0.7")
 }
